@@ -31,11 +31,11 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 ## Configuration
 
 To set up your app:
-
-1. Link a cluster that includes the [Atlas sample data sets](https://docs.atlas.mongodb.com/sample-data/)
-2. Configure permissions for the `sample_mflix.movies` collection. For this
-   demo, you can assign ready only permissions for all authenticated users.
-3. Generate a collection schema for the `sample_mflix.movies` collection.
-   Add a root-level "title" field to the schema with the value set to "movie".
-4. Enable anonymous authentication
+1. Click App Services tab
+1. Link a cluster that includes the [Atlas sample data sets](https://docs.atlas.mongodb.com/sample-data/) 
+   to your App that you want to use
+3. Configure rules for the `sample_mflix.movies` collection. For this
+   demo, you can assign ready only rules for all authenticated users.
+3. Generate a collection schema for the `sample_mflix.movies` collection by click `Schema` on the left sidebar/menu
+4. Enable anonymous authentication by click `Authentication` on the left sidebar/menu
 5. Once your app is set up, replace the value of NEXT_PUBLIC_REALM_APP_ID in `.env` file with your App ID
